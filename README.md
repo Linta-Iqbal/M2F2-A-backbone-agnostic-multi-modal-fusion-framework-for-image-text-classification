@@ -42,7 +42,6 @@ M2F2_Project/
 ### Prerequisites
 - Python 3.8+
 - CUDA-compatible GPU (recommended for training)
-- 16GB+ RAM
 
 ### Installation
 1. Clone the repository
@@ -76,5 +75,6 @@ M2F2_Project/
 1. Set the dataset paths in `config/config.py`
 2. Update `NUM_CLASSES` to match your dataset
 3. Modify other relevant configuration parameters
+
 
 
