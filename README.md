@@ -34,7 +34,7 @@ M2F2_Project/
 ├── main.py                 # Main training script
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
-
+```
 
 
 ## 🚀 Quick Start
@@ -76,4 +76,5 @@ M2F2_Project/
 1. Set the dataset paths in `config/config.py`
 2. Update `NUM_CLASSES` to match your dataset
 3. Modify other relevant configuration parameters
+
 
