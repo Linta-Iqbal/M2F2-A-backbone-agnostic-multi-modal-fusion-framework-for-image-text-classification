@@ -1,38 +1,40 @@
 M2F2: A MultiModal Fusion Framework for Architecture-Invariant Multimodal Learning
 We proposed an architecture-invariant multimodal framework for modeling inter and intra-modal interactions in a data-driven way.
 
-🏗️ Project Structure
+## 🏗️ Project Structure
+```text
 M2F2_Project/
 │
 ├── config/                 # Configuration management
 │   ├── __init__.py
-│   └── config.py          # All hyperparameters and paths
+│   └── config.py           # All hyperparameters and paths
 │
-├── data/                  # Data handling
+├── data/                   # Data handling
 │   ├── __init__.py
-│   ├── dataset.py         # Multimodal dataset class
+│   ├── dataset.py          # Multimodal dataset class
 │   └── data_preprocessor.py # Data validation and preprocessing
 │
-├── models/                # Model architectures
+├── models/                 # Model architectures
 │   ├── __init__.py
-│   ├── mamba_module.py    # MSM
+│   ├── mamba_module.py     # MSM
 │   ├── attention_module.py # IntRel Cap
 │   ├── classification.py  # MFC
 │   ├── post_layer.py      # Post-processing layer
 │   └── multimodal_model.py # Main multimodal model
 │
-├── training/              # Training utilities
+├── training/               # Training utilities
 │   ├── __init__.py
-│   ├── trainer.py         # Training and evaluation functions
-│   └── optimizer.py       # Optimizer and scheduler setup
+│   ├── trainer.py          # Training and evaluation functions
+│   └── optimizer.py        # Optimizer and scheduler setup
 │
-├── utils/                 # Helper functions
+├── utils/                  # Helper functions
 │   ├── __init__.py
-│   └── helpers.py         # Utilities, metrics, plotting
+│   └── helpers.py          # Utilities, metrics, plotting
 │
-├── main.py               # Main training script
-├── requirements.txt      # Python dependencies
-└── README.md            # This file
+├── main.py                 # Main training script
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
+
 
 
 ## 🚀 Quick Start
@@ -74,3 +76,4 @@ M2F2_Project/
 1. Set the dataset paths in `config/config.py`
 2. Update `NUM_CLASSES` to match your dataset
 3. Modify other relevant configuration parameters
+
