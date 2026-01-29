@@ -12,7 +12,8 @@ M2F2_Project/
 ├── data/                   # Data handling
 │   ├── __init__.py
 │   ├── dataset.py          # Multimodal dataset class
-│   └── data_preprocessor.py # Data validation and preprocessing
+│   ├── dataloader.py          # Multimodal dataloader class
+│   └── data_preprocessor.py # Data preprocessing
 │
 ├── models/                 # Model architectures
 │   ├── __init__.py
@@ -75,6 +76,7 @@ M2F2_Project/
 1. Set the dataset paths in `config/config.py`
 2. Update `NUM_CLASSES` to match your dataset
 3. Modify other relevant configuration parameters
+
 
 
 
