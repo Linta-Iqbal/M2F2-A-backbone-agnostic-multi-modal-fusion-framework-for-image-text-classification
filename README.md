@@ -1,4 +1,5 @@
 A Multimodal Fusion Framework for Encoder-Agnostic Multimodal Learning
+
 We proposed an encoder-agnostic multimodal framework for modeling inter and intra-modal interactions in a data-driven way.
 
 ## 🏗️ Project Structure
