@@ -1,5 +1,5 @@
-M2F2: A MultiModal Fusion Framework for Architecture-Invariant Multimodal Learning
-We proposed an architecture-invariant multimodal framework for modeling inter and intra-modal interactions in a data-driven way.
+A Multimodal Fusion Framework for Encoder-Agnostic Multimodal Learning
+We proposed an encoder-agnostic multimodal framework for modeling inter and intra-modal interactions in a data-driven way.
 
 ## 🏗️ Project Structure
 ```text
