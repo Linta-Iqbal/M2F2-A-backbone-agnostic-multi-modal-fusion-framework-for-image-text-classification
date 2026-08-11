@@ -1,6 +1,6 @@
-A Multimodal Fusion Framework for Encoder-Agnostic Multimodal Learning
+M2F2: A backbone-agnostic multi-modal fusion framework for image-text classification
 
-We proposed an encoder-agnostic multimodal framework for modeling inter and intra-modal interactions in a data-driven way.
+We proposed a backbone-agnostic multimodal framework for modeling inter and intra-modal interactions in a data-driven way.
 
 ## 🏗️ Project Structure
 ```text
