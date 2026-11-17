@@ -76,7 +76,24 @@ M2F2_Project/
 ## 🔧 Using a Different Dataset
 1. Set the dataset paths in `config/config.py`
 2. Update `NUM_CLASSES` to match your dataset
-3. Modify other relevant configuration parameters
+3. Use the respective dataset split from the `data/data_splits/` folder.
+4. Modify other relevant configuration parameters.
+
+## Datasets
+1. MM-IMDB: Gated Multimodal Units for Information Fusion (http://arxiv.org/abs/1702.01992)
+2. MS-COCO 2017: Microsoft COCO: Common Objects in Context (https://link.springer.com/chapter/10.1007/978-3-319-10602-1_48)
+3. Food101: Recipe recognition with large multimodal food dataset (https://ieeexplore.ieee.org/document/7169757/)
+4. N24News: A New Dataset for Multimodal News Classification (https://aclanthology.org/2022.lrec-1.729/)
+
+## Baselines
+1. EF (https://ieeexplore.ieee.org/document/8269806)
+2. GMU (http://arxiv.org/abs/1702.01992)
+3. UniS:MMC (https://aclanthology.org/2023.findings-acl.41/)
+4. Dynamic Fusion (https://ieeexplore.ieee.org/document/10208451/)
+5. MMPareto (https://proceedings.mlr.press/v235/wei24d.html)
+6. ReconBoost (https://proceedings.mlr.press/v235/hua24a.html)
+7. I2MoE-MulT (https://proceedings.mlr.press/v267/xin25c.html)
+8. UDML (https://openaccess.thecvf.com/content/CVPR2026F/papers/Wei_Unbiased_Dynamic_Multimodal_Fusion_CVPRF_2026_paper.pdf)
 
 
 
